@@ -27,7 +27,7 @@ You need to create a Token to authenticate when setting the password of the user
 3. Copy the shown token.
 4. Open Postman
 5. Send the following Request
-
+```
 Request Url: [YOUR-CONTENT-HUB-URL]/api/[USER-ID]/setpasword
 e.g. https://abc.stylelabs.com/api/account/12345/setpassword
 
@@ -37,7 +37,7 @@ Content-Type	application/json
 
 Body:
 {"password":"[YOUR-PASSWORD]"}
-
+```
 Note: The User ID can be retrieved from the URL, when editing the User.
 
 ### Create OAuth Client
@@ -59,7 +59,7 @@ Users: [SELECT-USER-CREATED-PREVIOUSLY]
 
 ### Setting user.properties to sync with Sandbox
 Put either local.settings.json file into root of the following projects or handle via user secrets. Use the provided content and adjust user and client information accordingly. Ignore those files so they are not shared with Git Repo
-
+```
 Sitecore.CH.Implementation.Scripts.Tests
 {
   "M": {
@@ -71,7 +71,8 @@ Sitecore.CH.Implementation.Scripts.Tests
     "KnownSSoRedirects": []
   }
 }
-
+```
+```
 Sitecore.CH.Implementation.CommandLine
 {
   "M": {
@@ -89,10 +90,10 @@ Sitecore.CH.Implementation.CommandLine
     }
   }
 }
-
+```
 Note: Repository Path may look like this: "C:\\repos\\ContentHub\\SUGCON\\src\\Sitecore.CH.Implementation.Scripts
 
-
+```
 Sitecore.CH.Implementation.AzFunctions
 {
  "M": {
@@ -104,6 +105,7 @@ Sitecore.CH.Implementation.AzFunctions
     "KnownSSoRedirects": []
   }
 }
+```
 
 
 ## How to sync scripts
