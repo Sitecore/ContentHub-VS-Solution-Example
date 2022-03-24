@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sitecore.CH.Base\Sitecore.CH.Base.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Action\Sugcon\Background\" />
+    <Folder Include="Metadata\" />
+    <Folder Include="UserSign\" />
+    <Folder Include="WebAPI\" />
+    <Folder Include="Shared\" />
+  </ItemGroup>
+
+</Project>

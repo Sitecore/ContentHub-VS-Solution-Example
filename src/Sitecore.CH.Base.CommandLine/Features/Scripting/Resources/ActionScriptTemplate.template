@@ -1,0 +1,20 @@
+﻿using Stylelabs.M.Base.Scripting.Action;
+using Stylelabs.M.Framework.Essentials.LoadConfigurations;
+using Stylelabs.M.Scripting.Types.V1_0.Action;
+using Stylelabs.M.Sdk;
+using Stylelabs.M.Sdk.Contracts.Base;
+using System;
+
+namespace Scripts.Action.##GROUP##
+{
+    public class ##FILENAME## : ActionScriptScope
+    {
+        public ##FILENAME##(IActionScriptContext context, IMClient client) : base(context, client)
+        {
+        }
+
+        public async void ScriptBody()
+        {
+        }
+    }
+}

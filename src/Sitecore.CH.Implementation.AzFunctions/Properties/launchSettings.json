@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Sitecore.CH.Implementation.AzFunctions": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+      }
+    }
+  }
+}
