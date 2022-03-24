@@ -109,8 +109,13 @@ Sitecore.CH.Implementation.AzFunctions
 
 
 ## How to sync scripts
-in work
+In your solution, perform a right mouse click on the Sitecore.CH.Implementation.CommandLine Project
+Choose Debug
+Start new Instance
 
+A command prompt will open that performs the magic.
+
+If the build fails, you get an error message.
 
 ## How to sync Azure Functions
 in work
