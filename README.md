@@ -109,9 +109,9 @@ Sitecore.CH.Implementation.AzFunctions
 
 
 ## How to sync scripts
-In your solution, perform a right mouse click on the Sitecore.CH.Implementation.CommandLine Project
-Choose Debug
-Start new Instance
+In your solution, perform a right mouse click on the Sitecore.CH.Implementation.CommandLine project.
+
+Choose "Debug" --> "Start new Instance"
 
 A command prompt will open that performs the magic.
 
