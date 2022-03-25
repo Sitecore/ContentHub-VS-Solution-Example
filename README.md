@@ -1,5 +1,5 @@
 # ContentHub-VS-Solution-Example
-Visual Studio Solution Starter Kit to download and base any Content Hub Development on. It supports Intellisense, Sync of scripts, Debugging and Unit-Testing e.g. for Content Hub Scripts and Azure Functions. It also stores External Page Components. Overall it provides guidance on how to best structure a Visual Studio Solution for Content Hub Projects and therefore accelerates Customers and Partners.
+Visual Studio Solution Example to download and base any Content Hub Development on. It supports Intellisense, Sync of scripts, Debugging and Unit-Testing e.g. for Content Hub Scripts and Azure Functions. It also stores External Page Components. Overall it provides guidance on how to best structure a Visual Studio Solution for Content Hub Projects and therefore accelerates Customers and Partners.
 
 ## Getting Started
 
