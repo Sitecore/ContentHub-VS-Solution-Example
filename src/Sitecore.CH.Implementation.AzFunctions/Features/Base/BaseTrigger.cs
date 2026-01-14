@@ -8,7 +8,6 @@ using Newtonsoft.Json;
 using System.Net.Http;
 using Stylelabs.M.Sdk.Contracts.Base;
 using Stylelabs.M.Framework.Essentials.LoadConfigurations;
-using System.Web.Http;
 using Sitecore.CH.Base.Features.SDK.Services;
 using Sitecore.CH.Base.Features.Logging.Services;
 using Sitecore.CH.Base.Features.Base.Domain;
@@ -62,7 +61,7 @@ namespace Sitecore.CH.Implementation.AzFunctions.Features.Base
             catch (Exception ex)
             {
                 _logger.LogError(ex, ex.Message + " " + ex.StackTrace);
-                return new InternalServerErrorResult();
+                return new StatusCodeResult(StatusCodes.Status500InternalServerError);
             }
         }
 

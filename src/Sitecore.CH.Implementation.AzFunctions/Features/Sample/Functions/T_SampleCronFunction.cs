@@ -1,4 +1,3 @@
-using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
 using Sitecore.CH.Base.Features.Logging.Services;
 using Sitecore.CH.Base.Features.Sample.Services;
@@ -8,6 +7,7 @@ using Sitecore.CH.Implementation.AzFunctions.Sample.Services;
 using Sitecore.CH.Implementation.Features.Sample.Services;
 using System;
 using System.Threading.Tasks;
+using Microsoft.Azure.Functions.Worker;
 
 namespace Sitecore.CH.Implementation.AzFunctions.Sample.Functions
 {

@@ -174,7 +174,7 @@
                 public static string SetMaster = "setmaster";
                 public static string SetDeliverablesLifeCycleStatus = "set.deliverables.lifecyclestatus";
             }
-            public static class args
+            public static class Args
             {
                 public static string master_relation = "MasterFile";
 

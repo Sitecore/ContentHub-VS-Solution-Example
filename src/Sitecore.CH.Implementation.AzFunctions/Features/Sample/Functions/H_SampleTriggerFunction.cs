@@ -1,7 +1,5 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Stylelabs.M.Sdk.Contracts.Base;
@@ -12,6 +10,7 @@ using Sitecore.CH.Base.Features.Logging.Services;
 using Sitecore.CH.Implementation.AzFunctions.Features.Base;
 using Sitecore.CH.Implementation.Features.Sample.Services;
 using Sitecore.CH.Implementation.AzFunctions.Sample.Services;
+using Microsoft.Azure.Functions.Worker;
 
 namespace Sitecore.CH.Implementation.AzFunctions.Sample.Functions
 {
